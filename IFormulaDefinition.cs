@@ -25,6 +25,11 @@ namespace Grammophone.Formulae
 		public string Expression { get; }
 
 		/// <summary>
+		/// If true, ignore any default rounding options and yield the exact computation result.
+		/// </summary>
+		public bool IgnoreRoundingOptions { get; }
+
+		/// <summary>
 		/// Get a unique formula ID as a string.
 		/// </summary>
 		public string GetFormulaID();
